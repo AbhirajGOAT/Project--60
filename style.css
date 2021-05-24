@@ -12,14 +12,14 @@ text-shadow:2px 2px #F8BBDO;
 font-size:30px;    
 }
 .menu{
-position:fixed;    
- top:0px;
+ position: fixed;
+background: black;
+z-index: 10;
+top:0px;
 right:10px;     
 font-family:cursive;
-float:right;
-z-index: 10;    
 curser:pointer;    
-color:black;
+color:floralwhite;    
 }
 #start{
 font-family: 'Roboto', sans-serif;    
@@ -34,7 +34,22 @@ scroll-behavior:smooth;
 border-radius:50%;
 width:100px;  
 }
+  
+}
+#contact a{
+text-shadow: none !important;
+text-decoration: underline !important;
+color: blue;   
+}
 
+#contact {
+background:aliceblue;
+}
+ a {
+text-decoration: none;
+color: blue;
+text-shadow: 2px 2px gainsboro;
+}
 #image1{
 width:275px;
 height:300px;    
